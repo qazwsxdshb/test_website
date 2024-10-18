@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{margin: 0px;}
+        thead{
+            background-color: gray;
+            color: white;
+        }
+        tbody{
+            background-color: lightgray;
+        }
+        .tr1{
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <table cellpadding="10" cellspacing="2">
+
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>7:30AM</th>
+                <th>BreakFast</th>
+                <th>BreakFast</th>
+                <th>BreakFast</th>
+            </tr>
+            <tr class="tr1">
+                <th>8:00AM</th>
+                <th rowspan="2" style="background-color: lightgreen;">Business:Lecture</th>
+                <th rowspan="3" style="background-color: sandybrown;">Physics:Lab</th>
+                <th rowspan="2" style="background-color: lightgreen;">Business:Lecture</th>
+
+            </tr>
+            <tr>
+                <th>8:30AM</th>
+            </tr>
+            <tr class="tr1">
+                <th>9:00AM</th>
+                <th rowspan="2" style="background-color: lightblue">Applied Math</th>
+                <th rowspan="2" style="background-color: lightblue">Applied Math</th>
+            </tr>
+            <tr>
+                <th>9:30AM</th>
+                <th></th>
+            </tr>
+            <tr class="tr1">
+                <th>10:00AM</th>
+                <th></th><th></th><th></th>
+            </tr>
+            <tr>
+                <th>10:30AM</th>
+                <th></th><th></th><th></th>
+            </tr>
+            <tr class="tr1">
+                <th>11:00AM</th>
+                <th></th><th></th><th></th>
+            </tr>
+            <tr>
+                <th>11:30AM</th>
+                <th></th><th></th><th></th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
